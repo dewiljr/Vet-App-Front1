@@ -1,0 +1,201 @@
+.doctor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.doctor-newdoctor {
+  margin-bottom: 20px;
+}
+
+.doctor-table {
+  width: 100%;
+}
+
+.doctor-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.doctor-table th,
+.doctor-table td {
+  border: 1px none #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.doctor-table th {
+  background-color: #210097;
+}
+
+.doctor-icon,
+.doctor-updateicon {
+  cursor: pointer;
+}
+
+.doctor-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.doctor-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.doctor-table th {
+  color: white;
+  text-align: center;
+}
+
+.doctor-newdoctor,
+.doctor-updatedoctor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.doctor-newdoctor h2,
+.doctor-updatedoctor h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.doctor-newdoctor input,
+.doctor-updatedoctor input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.doctor-newdoctor button,
+.doctor-updatedoctor button {
+  padding: 8px 16px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.doctor-newdoctor button:hover,
+.doctor-updatedoctor button:hover {
+  background-color: #210097;
+}
+
+.doctor-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.availableDate-newavailableDate,
+.availableDate-updateavailableDate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.availableDate-newavailableDate h2,
+.availableDate-updateavailableDate h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.availableDate-newavailableDate input,
+.availableDate-updateavailableDate input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.availableDate-newavailableDate select,
+.availableDate-updateavailableDate select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.availableDate-newavailableDate button,
+.availableDate-updateavailableDate button {
+  padding: 8px 16px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.availableDate-newavailableDate button:hover,
+.availableDate-updateavailableDate button:hover {
+  background-color: #210097;
+}
+
+.availableDate-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.availableDate-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.availableDate-icon,
+.availableDate-updateicon {
+  cursor: pointer;
+}
+
+.date-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.doctor-search {
+  width: 175px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.doctor-search-title {
+  margin-bottom: 10px;
+  margin-left: 62px;
+}
+
+.search-area-doctor {
+  border: 2px groove #E1AFD1;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 25px;
+  padding: 8px;
+}
+
+.doctor-reset {
+  padding: 8px 10px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 150px;
+  margin-top: 15px;
+  width: 100px;
+  margin-left: 60px;
+}

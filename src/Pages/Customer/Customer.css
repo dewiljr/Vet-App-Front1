@@ -1,0 +1,131 @@
+.customer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.customer-newcustomer {
+  margin-bottom: 20px;
+}
+
+.customer-table {
+  width: 100%;
+}
+
+.customer-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px none #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #210097;
+}
+
+.customer-icon,
+.customer-updateicon {
+  cursor: pointer;
+}
+
+.customer-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.customer-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.customer-table th {
+  color: white;
+  text-align: center;
+}
+
+.customer-newcustomer,
+.customer-updatecustomer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.customer-newcustomer h2,
+.customer-updatecustomer h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.customer-newcustomer input,
+.customer-updatecustomer input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.customer-newcustomer button,
+.customer-updatecustomer button {
+  padding: 8px 16px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.customer-newcustomer button:hover,
+.customer-updatecustomer button:hover {
+  background-color: #210097;
+}
+
+.customer-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.customer-search {
+  width: 175px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.customer-search-title {
+  margin-bottom: 10px;
+  margin-left: 46px;
+}
+
+.search-area-customer {
+  border: 2px groove #210097;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 25px;
+  padding: 8px;
+}
+
+.customer-reset {
+  padding: 8px 10px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 150px;
+  margin-top: 15px;
+  width: 100px;
+  margin-left: 60px;
+}

@@ -1,0 +1,106 @@
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.report-newreport {
+  margin-bottom: 20px;
+}
+
+.report-table {
+  width: 100%;
+}
+
+.report-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px none #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #210097;
+}
+
+.report-icon,
+.report-updateicon {
+  cursor: pointer;
+}
+
+.report-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.report-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.report-table th {
+  color: white;
+  text-align: center;
+}
+
+.report-newreport,
+.report-updatereport {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.report-newreport h2,
+.report-updatereport h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.report-newreport input,
+.report-updatereport input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.report-newreport button,
+.report-updatereport button {
+  padding: 8px 16px;
+  background-color: #210097;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.report-newreport button:hover,
+.report-updatereport button:hover {
+  background-color: #210097;
+}
+
+.report-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.report-newreport select,
+.report-updatereport select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px none #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
